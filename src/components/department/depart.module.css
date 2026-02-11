@@ -1,0 +1,123 @@
+@media only screen and (min-width: 600px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: row;
+    width: 94%;
+    justify-content: space-between;
+  }
+
+  .listctn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 26%;
+    justify-content: flex-start;
+  }
+
+  .dep {
+    font-size: 16px;
+    margin-top: 4px;
+    background-color: #e6e6e6;
+    color: #1d4484;
+    padding: 6px;
+    border-radius: 2px;
+  }
+
+  .listctn li {
+    font-size: 16px;
+    margin-top: 4px;
+    background-color: #e6e6e6;
+    color: #1d4484;
+    padding: 6px;
+    border-radius: 2px;
+  }
+
+  .listctn li:hover {
+    /* background-color: #e6e6e6; */
+    cursor: pointer;
+    /* color: #1d4484; */
+
+    background-color: #1d4484;
+    color: #fff;
+  }
+
+  .depActive {
+    background-color: #1d4484;
+    color: #fff;
+  }
+
+  .leftContainer {
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+    width: 70%;
+  }
+
+  .facultyContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  .listctn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 92%;
+    justify-content: flex-start;
+  }
+
+  .dep {
+    font-size: 16px;
+    margin-top: 4px;
+    background-color: #e6e6e6;
+    color: #1d4484;
+    padding: 6px;
+    border-radius: 2px;
+  }
+
+  .listctn li {
+    font-size: 16px;
+    margin-top: 4px;
+    background-color: #e6e6e6;
+    color: #1d4484;
+    padding: 6px;
+    border-radius: 2px;
+  }
+
+  .listctn li:hover {
+    /* background-color: #e6e6e6; */
+    cursor: pointer;
+    /* color: #1d4484; */
+
+    background-color: #1d4484;
+    color: #fff;
+  }
+
+  .depActive {
+    background-color: #1d4484;
+    color: #fff;
+  }
+
+  .leftContainer {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    /* width: 60%; */
+  }
+
+  .facultyContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

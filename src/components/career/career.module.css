@@ -1,0 +1,329 @@
+@media only screen and (min-width: 600px) {
+
+    .careerCtn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h2 {
+        color: #000;
+    }
+
+    .addCtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rectangleForm {
+        box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+        background-color: #fff;
+        padding: 58px 40px;
+        display: flex;
+        flex-direction: column;
+        width: 38%;
+        height: 70%;
+        border-radius: 28px;
+        margin-top: 18vh;
+    }
+
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .form {
+        font-family: 'CircularStd-Book';
+        text-align: left;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        align-items: center;
+        border: 2px solid #e6e6e6;
+        margin: 100px;
+        border-radius: 8px;
+        box-shadow: 10px 10px grey;
+        padding: 12px;
+
+    }
+
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+        width: 30vw;
+    }
+
+    .formGroup label {
+        text-align: left;
+        font-size: 16px;
+        color: #151718;
+        font-family: sans-serif;
+    }
+
+
+    .inputBox {
+        border: none;
+        border-bottom: 2px solid #b1b1b1;
+        width: 100%;
+        line-height: 1.9;
+        outline: none;
+        background-color: white !important;
+        box-shadow: none !important;
+        padding: 0% !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px !important;
+        }
+
+    ::placeholder {
+        font-family: 'CircularStd-Bold';
+        font-size: 14px;
+        text-align: left;
+        color: #878787;
+    }
+
+    .requestCallButton {
+        text-align: center;
+    }
+
+    .requestCallButton button {
+        margin-top: 20px;
+        padding: 1vh 4vh;
+        /* background-color: #e32228; */
+        background-color: #5a79f5;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        white-space: nowrap;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+
+    .crrCtn {
+        justify-content: space-between;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .singleCtn {
+        display: flex;
+        flex-direction: column;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 30%;
+        border: 1px solid #000;
+        margin: 6px;
+    }
+
+    .applyCtn {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .apply {
+        display: inline-flex;
+        appearance: none;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        user-select: none;
+        position: relative;
+        white-space: nowrap;
+        vertical-align: middle;
+        outline-offset: 2px;
+        width: 40%;
+        line-height: 1.25rem;
+        font-weight: var(--chakra-fontWeights-medium);
+        transition-property: var(--chakra-transition-property-common);
+        transition-duration: var(--chakra-transition-duration-normal);
+        font-size: 1rem;
+        letter-spacing: 0.078rem;
+        height: 2.1875rem;
+        min-width: var(--chakra-sizes-10);
+        padding-inline-start: var(--chakra-space-4);
+        padding-inline-end: var(--chakra-space-4);
+        box-sizing: border-box;
+        margin-right: 0.5rem;
+        outline: transparent solid 2px;
+        border-radius: 0.25rem;
+        border-color: var(--chakra-colors-brand-600);
+        background-color: #e32228;
+        color: #fff;
+    }
+    ::placeholder {
+        color: #9f9999;
+        font-family: sans-serif;
+        font-size: 14px;
+      }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .careerCtn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .h2 {
+        color: #000;
+    }
+
+    .addCtn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .rectangleForm {
+        box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+        background-color: #fff;
+        padding: 58px 40px;
+        display: flex;
+        flex-direction: column;
+        width: 38%;
+        height: 70%;
+        border-radius: 28px;
+        margin-top: 18vh;
+    }
+
+    .formContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .form {
+        font-family: 'CircularStd-Book';
+        text-align: left;
+        line-height: 1.2;
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        align-items: center;
+        border: 2px solid #e6e6e6;
+        margin: 100px;
+        border-radius: 8px;
+        box-shadow: 10px 10px grey;
+        padding: 12px;
+
+    }
+
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+        width: 64vw;
+    }
+
+    .formGroup label {
+        text-align: left;
+        font-size: 16px;
+        color: #151718;
+        font-family: sans-serif;
+    }
+
+
+    .inputBox {
+        border: none;
+        border-bottom: 2px solid #b1b1b1;
+        width: 100%;
+        line-height: 1.9;
+        outline: none;
+        background-color: white !important;
+        box-shadow: none !important;
+        padding: 0% !important;
+        margin-left: 0 !important;
+        margin-bottom: 10px !important;
+        }
+
+    ::placeholder {
+        font-family: 'CircularStd-Bold';
+        font-size: 14px;
+        text-align: left;
+        color: #878787;
+    }
+
+    .requestCallButton {
+        text-align: center;
+    }
+
+    .requestCallButton button {
+        margin-top: 20px;
+        padding: 1vh 4vh;
+        background-color: #e32228;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        white-space: nowrap;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+
+    .crrCtn {
+        justify-content: space-between;
+        display: flex;
+        flex-flow: wrap;
+    }
+
+    .singleCtn {
+        display: flex;
+        flex-direction: column;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 46%;
+        border: 1px solid #000;
+        margin: 6px;
+    }
+
+    .applyCtn {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .apply {
+        display: inline-flex;
+        appearance: none;
+        -webkit-box-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+        user-select: none;
+        position: relative;
+        white-space: nowrap;
+        vertical-align: middle;
+        outline-offset: 2px;
+        width: 40%;
+        line-height: 1.25rem;
+        font-weight: var(--chakra-fontWeights-medium);
+        transition-property: var(--chakra-transition-property-common);
+        transition-duration: var(--chakra-transition-duration-normal);
+        font-size: 1rem;
+        letter-spacing: 0.078rem;
+        height: 2.1875rem;
+        min-width: var(--chakra-sizes-10);
+        padding-inline-start: var(--chakra-space-4);
+        padding-inline-end: var(--chakra-space-4);
+        box-sizing: border-box;
+        margin-right: 0.5rem;
+        outline: transparent solid 2px;
+        border-radius: 0.25rem;
+        border-color: var(--chakra-colors-brand-600);
+        background-color: #e32228;
+        color: #fff;
+    }
+    ::placeholder {
+        color: #9f9999;
+        font-family: sans-serif;
+        font-size: 14px;
+      }
+}

@@ -1,0 +1,13 @@
+@media only screen and (min-width: 600px) {
+  .contentMainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* webdevelopment */
+
+  .webContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

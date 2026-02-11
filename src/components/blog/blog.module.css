@@ -1,0 +1,126 @@
+@media screen and (min-width:600px) {
+
+    .blogMain {
+        display: flex;
+        flex-direction: column;
+        margin: 6px 6vw;
+    }
+
+    .heading {
+        font-size: 14px;
+    }
+
+    .inputArea {
+
+        margin-top: 12px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        color: black;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .inputAreaDesc {
+
+        margin-top: 12px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        color: black;
+        padding: 10px;
+        height: 180px;
+        width: 100%;
+
+    }
+
+    .done {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: flex-end;
+    }
+
+    .done button {
+        /* background-color: #e43530; */
+        background-color: #0995ff;
+        width: 16%;
+        padding: 8px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .blogMain {
+        display: flex;
+        flex-direction: column;
+        /* margin: 6px 9vw; */
+        margin: 16px 36px 12px 12px;
+    }
+
+    .heading {
+        font-size: 14px;
+    }
+
+    .inputArea {
+
+        margin-top: 12px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        color: black;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .inputAreaDesc {
+
+        margin-top: 12px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        color: black;
+        padding: 10px;
+        height: 180px;
+        width: 100%;
+
+    }
+
+    .done {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: flex-end;
+    }
+
+    .done button {
+        /* background-color: #e43530; */
+        background-color: #0995ff;
+        width: 36%;
+        padding: 8px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 12px;
+    }
+}

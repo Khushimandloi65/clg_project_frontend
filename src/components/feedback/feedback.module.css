@@ -1,0 +1,357 @@
+@media only screen and (min-width:600px) {
+
+    .feedbackMain {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 14px 2vw;
+        padding: 12px;
+        background-color: #e6e6e6;
+        border-radius: 4px;
+    }
+
+    .heading {
+        font-size: 14px;
+        color: #000;
+        font-family: sans-serif;
+        margin-top: 10px;
+    }
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+        width: 30vw;
+    }
+
+
+    .inputBox {
+        margin-left: 4px;
+        width: 100%;
+        line-height: 1.9;
+        outline: none;
+        border-radius:3px;
+        border: 1px solid #c8c8c8;
+
+    }
+
+    .formContainer{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 72%;
+    }
+
+    .ratingContainer {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .inputAreaDesc {
+        margin-top: 12px;
+        border-radius: 4px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        color: black;
+        padding: 10px;
+        height: 180px;
+        width: 100%;
+        border: 1px solid #c8c8c8;
+        outline: none;
+
+    }
+
+
+    .done {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: flex-end;
+        align-items: end;
+        background-color: #e91e62;
+    }
+
+    .done button {
+        /* background-color: #e43530; */
+        /* background-color: #0995ff; */
+        background-color: #e91e62;
+        padding: 8px;
+        border: 1px solid #e91e62;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .ratingOur {
+        margin-left: 10px;
+        font-size: 18px;
+        padding: 6px;
+    }
+    .ratingSecond {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    /*  for remove scrollbar line */
+    .ratingSecond::-webkit-scrollbar {
+    display: none;
+    }
+
+    .singleRatingContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 4px;
+        width: 36vw;
+        margin: 4px;
+        border-radius: 4px;
+        border: 2px solid #e6e6e6;
+    }
+
+    .ratingMain {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+
+    .reviewMessage {
+        text-align: left;
+    }
+
+    .review {
+        font-size: 14px;
+    }
+
+    .userNameMsg {
+        font-size: 14px;
+        margin-top: 2px;
+    }
+
+    .labelMsg{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 12px;
+        color: #637381;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-left: 6px;
+    }
+
+    .userName{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .avtarLogo{
+        width: 30px;
+        height: 30px;
+        border-radius:50%;
+        border: 2px solid #ddd;
+    }
+    .userNameMsg {
+        font-size: 14px;
+        width: 26vw;
+        margin-left:0px;
+        padding: 10px 8px 0px 8px;
+    }
+
+    .feedbackDate{
+        display: flex;
+        flex-direction: column;
+    }
+    .feedDate{
+        margin: 0px;
+        margin-left:4px;
+        font-size: 12px;
+        color: #000;
+    }
+}
+
+@media only screen and (max-width:600px) {
+
+    .feedbackMain {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 14px 2vw;
+        padding: 12px;
+        background-color: #e6e6e6;
+        border-radius: 4px;
+    }
+
+    .headContainer{
+        text-align: left;
+    }
+    .heading {
+        font-size: 14px;
+        color: #000;
+        font-family: sans-serif;
+        margin-top: 10px;
+    }
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2vh;
+        /* width: 30vw; */
+    }
+
+    .labelMsg{
+        display: block;
+        margin-bottom: 5px;
+        font-size: 12px;
+        color: #637381;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-left: 6px;
+    }
+
+    .inputBox {
+        margin-left: 4px;
+        width: 100%;
+        line-height: 1.9;
+        outline: none;
+        border-radius: 4px;
+        border: 1px solid #c8c8c8;
+        padding: 6px;
+    }
+
+    .ratingContainer {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .formGroup {
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin-top: 6px;
+        align-items: flex-start;
+    }
+
+    .inputAreaDesc {
+        margin-top: 12px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: white;
+        color: black;
+        padding: 10px;
+        height: 180px;
+        width: 100%;
+        border: 1px solid #c8c8c8;
+        outline: none;
+    }
+
+
+    .done {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: flex-end;
+        align-items: end;
+        border: 1px solid #e91e62;
+    }
+
+    .done button {
+        /* background-color: #e43530; */
+        /* background-color: #0995ff; */
+        background-color: #e91e62;
+        padding: 8px;
+        border: 1px solid #e91e62;
+        border-radius: 4px;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 12px;
+    }
+
+    .ratingOur {
+        margin-left: 10px;
+        font-size: 18px;
+        padding: 6px;
+    }
+
+    .ratingSecond {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    /*  for remove scrollbar line */
+    .ratingSecond::-webkit-scrollbar {
+        display: none;
+      }
+
+    .singleRatingContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 4px;
+        width: 42vw;
+        margin: 4px;
+        border-radius: 4px;
+        border: 2px solid #e6e6e6;
+    }
+
+    .ratingMain {
+        display: flex;
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+
+    .reviewMessage {
+        text-align: left;
+    }
+
+    .review {
+        font-size: 14px;
+    }
+    .userName{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .avtarLogo{
+        width: 30px;
+        height: 30px;
+        border-radius:50%;
+        margin-bottom: 4px;
+        border: 2px solid #ddd;
+    }
+    .userNameMsg {
+        font-size: 14px;
+        width: 26vw;
+        margin-left:8px;
+    }
+
+    .feedbackDate{
+        display: flex;
+        flex-direction: column;
+    }
+    .feedDate{
+        font-size: 12px;
+        color: #000;
+    }
+    
+}

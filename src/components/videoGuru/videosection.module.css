@@ -1,0 +1,83 @@
+@media only screen and (min-width: 600px) {
+  .mainVideoCtn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .message {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000;
+  }
+  .playButton {
+    margin-top: 10px;
+    padding: 14px;
+    background-color: rgb(78, 199, 78);
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 20vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-weight: 20px;
+    cursor: pointer;
+  }
+
+  .explainContainer {
+    padding: 60px;
+    background-color: #e91e62;
+    border-radius: 10px;
+  }
+
+  .singleVideo {
+    width: 660px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .mainVideoCtn {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .message {
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: #000;
+  }
+  .playButton {
+    margin-top: 10px;
+    padding: 14px;
+    background-color: rgb(78, 199, 78);
+    border-radius: 6px;
+    border: 1px solid white;
+    width: 22vw;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-weight: 20px;
+    cursor: pointer;
+  }
+
+  .explainContainer {
+    padding: 20px;
+    background-color: #e91e62;
+    border-radius: 6px;
+  }
+
+  .singleVideo {
+    width: 300px;
+    border-radius: 4px;
+    border: 2px solid #fff;
+  }
+}

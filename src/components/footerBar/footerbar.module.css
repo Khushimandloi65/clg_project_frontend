@@ -1,0 +1,44 @@
+@media only screen and (max-width: 600px) {
+  .firstFooterCtn {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 96%;
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 99;
+    background-size: 100vw 53px;
+    background-repeat: no-repeat;
+    /* background-color: #ff530c69; */
+    background-color: #f4b179;
+    padding-top: 16px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    color: #fff;
+  }
+
+  .singleContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 4px;
+    align-items: center;
+  }
+
+  .singleIcon {
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
+  }
+
+  .textMsg {
+    margin-top: 2px;
+    font-size: 14px;
+    color: #fff;
+    font-family: sans-serif;
+  }
+}

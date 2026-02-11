@@ -1,0 +1,144 @@
+@media only screen and (min-width: 600px) {
+  .finalContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footerMainCtn {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    background-color: #e91e62;
+  }
+
+  .firstCtn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .jitLogos {
+    width: 40%;
+  }
+
+  .heading {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #2f80ed;
+  }
+
+  .message {
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .message:hover {
+    text-decoration: underline;
+  }
+
+  .head {
+    font-size: 18px;
+    color: #fff;
+    margin: 0px;
+  }
+
+  .icons {
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .iconsCtn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .copyMsg {
+    font-size: 12px;
+    color: rgb(100, 8, 8);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .finalContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .footerMainCtn {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    /* background-color: #012555; */
+    background-color: #e91e62;
+  }
+
+  .firstCtn {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .jitLogos {
+    width: 40%;
+  }
+
+  .heading {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #2f80ed;
+  }
+
+  .message {
+    font-size: 12px;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .message:hover {
+    text-decoration: underline;
+  }
+
+  .head {
+    font-size: 10px;
+    color: #fff;
+    margin: 0px;
+  }
+
+  .icons {
+    width: 24px;
+    cursor: pointer;
+  }
+
+  .iconsCtn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyContainer {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
+  .copyMsg {
+    font-size: 12px;
+    color: rgb(100, 8, 8);
+  }
+}

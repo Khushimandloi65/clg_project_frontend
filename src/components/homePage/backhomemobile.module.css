@@ -1,0 +1,349 @@
+@media only screen and (max-width: 480px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main {
+    width: 100%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-attachment: local;
+    padding-bottom: 20vh;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .imgContainer img {
+    width: 90%;
+    border-radius: 8px;
+    height: 66vh;
+  }
+
+  .headText {
+    color: white;
+    padding-top: 15vw;
+    font-family: "CircularStd-Bold";
+    font-size: 46px;
+    text-align: left;
+    padding-left: 2vw;
+  }
+
+  .rectangleForm {
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #fff;
+    /* padding: 58px 40px; */
+    padding: 12px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70%;
+    border-radius: 12px;
+  }
+
+  .enquiryText h2 {
+    font-family: "CircularStd-Bold";
+    font-size: 28px;
+    text-align: left;
+    color: #151718;
+    white-space: nowrap;
+    font-family: sans-serif;
+  }
+
+  .formContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form {
+    font-family: "CircularStd-Book";
+    text-align: left;
+    line-height: 1.2;
+  }
+
+  .formGroup {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vh;
+  }
+
+  .formGroup label {
+    text-align: left;
+    font-size: 16px;
+    color: #151718;
+    font-family: sans-serif;
+  }
+
+  .formGroup input::placeholder {
+    font-family: sans-serif;
+    padding-left: 10px;
+  }
+
+  .inputBox {
+    margin-top: 4px;
+    border: none;
+    width: 100%;
+    line-height: 1.9;
+    outline: none;
+    background-color: white !important;
+    box-shadow: none !important;
+    padding: 0% !important;
+    margin-left: 0 !important;
+    margin-bottom: 10px !important;
+    border: 2px solid #e4ebf5;
+    border-radius: 4px;
+  }
+
+  ::placeholder {
+    font-family: "CircularStd-Bold";
+    font-size: 1sans-serif4px;
+    text-align: left;
+    color: #878787;
+  }
+
+  .requestCallButton {
+    text-align: center;
+  }
+
+  .requestCallButton button {
+    margin-top: 20px;
+    padding: 1vh 5vh;
+    background-color: #5a79f5;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    white-space: nowrap;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI";
+    border: 2px solid #fff;
+  }
+
+  .isInValid {
+    border-bottom: 2px solid #e32228 !important;
+  }
+
+  .salesFanImg {
+    width: 100%;
+    position: relative;
+  }
+
+  .salesFanImg img {
+    object-fit: contain;
+    width: 100%;
+  }
+
+  .imgProductName {
+    text-align: left;
+    font-family: "CircularStd-Bold";
+    font-size: 16px;
+    text-align: left;
+    color: #151718;
+    bottom: 15px;
+    left: 22px;
+    position: absolute;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }
+
+  .firstContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    background-color: #012555;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .firstContainer p {
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .thirdContainer {
+    display: flex;
+  }
+
+  .modalContainer {
+  }
+
+  .secondContainer {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    flex-flow: wrap;
+  }
+
+  .teamDataContainer {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 36vw;
+    border-radius: 4px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #e91e62;
+    background-color: #e91e62;
+    box-shadow: 10px 10px 5px #e91e62;
+    margin: 8px;
+  }
+
+  .teamDataContainer img {
+    width: 36%;
+    border-radius: 6px;
+  }
+
+  .teamDataContainer p {
+    font-size: 16px;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+  }
+
+  .des {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  .bannerContainer {
+    margin-top: 20px;
+    display: flex;
+  }
+
+  .batchProfile {
+    background-color: #012555;
+    padding-top: 1.5vh;
+    padding-bottom: 2vh;
+    margin-top: 16px;
+  }
+
+  .batch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 10px;
+    /* border: 2px solid #ddd; */
+  }
+
+  .batch h3 {
+    margin-left: 6px;
+    color: #fff;
+  }
+
+  .bannerFirst .imgg {
+    width: 100%;
+    height: 60vh;
+    opacity: 100;
+    border-radius: 2px;
+  }
+
+  .thirdContainer {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    background-color: #012555;
+  }
+
+  .singleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 38vw;
+    border-radius: 4px;
+    padding: 10px 10px 20px 10px;
+    background-color: lightgray;
+    color: #e6e6e6;
+    margin: 8px;
+    border: 2px solid #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
+
+  .icon {
+    margin-top: 3px;
+    width: 90%;
+    border-radius: 4px;
+  }
+
+  .imgdiv {
+  }
+
+  .userImg {
+    width: 86%;
+    border-radius: 6%;
+  }
+
+  .name {
+    margin: 4px;
+    font-size: 16px;
+    color: #000;
+  }
+
+  .singleContainer .icon {
+    width: 18%;
+    border-radius: 28%;
+  }
+
+  .departContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    flex-flow: wrap;
+    background-color: #d9d4d1;
+  }
+
+  .dpHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #d9d4d1;
+  }
+
+  .dpHeader :hover {
+    text-decoration: underline;
+    border-radius: 6px;
+  }
+
+  .named {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    padding: 6px;
+  }
+
+  .depContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width:21vw; */
+    width: 36vw;
+    background-color: #fff;
+    box-shadow: 10px 10px gray;
+    border-radius: 4px;
+    padding: 36px 0px 10px 0px;
+    margin-bottom: 20px;
+  }
+
+  .depContainer img {
+    width: 42%;
+    border-radius: 8px;
+  }
+
+  .heading {
+    font-size: 16px;
+    color: #000;
+    margin-top: 8px;
+    font-weight: bold;
+  }
+}

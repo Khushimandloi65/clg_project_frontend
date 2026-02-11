@@ -1,0 +1,46 @@
+@media only screen and (min-width:600px) {
+
+    .mainContainer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .firstPage {
+        display: flex;
+        flex-direction: column;
+        width: 44vw;
+        /* background-color: red; */
+        border-radius: 8px;
+        /* width: 284px; */
+        padding: 10px 10px 20px 10px;
+        border: 1px solid #BFBFBF;
+        background-color: white;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        align-items: flex-start;
+    }
+
+    .editContainer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 80%;
+    }
+
+    .editContainer button {
+        margin-left: 40px;
+        background-color: transparent;
+        border: none;
+        border-radius:3px;
+        /* padding: 10px 10px; */
+        padding:8px 22px 8px 22px;
+        /* background: #428ccc; */
+        font-weight: bold;
+        background-color: #5a79f5;
+        color: #fff;
+        font-size:16px;
+        -webkit-transition: background .5s;
+        transition: background .5s;
+    }
+
+}
